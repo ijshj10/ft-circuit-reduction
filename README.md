@@ -93,3 +93,10 @@ additions: `set_noise`, which rescales the noise model to a given two-qubit erro
 and an `idle_noise` argument that selects the idle channel (default `Z_ERROR`, as
 upstream). `floqetified_steane_custom.py` is ours. The upstream repository carries no
 license; the rights to that code and data remain with its authors.
+
+## License
+
+MIT (see `LICENSE`), except for the files vendored from upstream: `low/simulations/`
+`utils.py`, `steane.py`, `floqetified_stean.py`, `threeflag.py`,
+`dynamic_floqetified_stean.py` and `data/`. Those are not covered by this license.
+`low/simulations/floqetified_steane_custom.py` is ours and is.
