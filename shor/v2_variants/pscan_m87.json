@@ -1,0 +1,88 @@
+{
+  "label": "steane_m87",
+  "idle": 0.1,
+  "convention": "h2",
+  "idle_channel": "DEPOLARIZE1",
+  "ancillas": 24,
+  "cnots": 48,
+  "rows": [
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.0005,
+      "shots": 25316440,
+      "accepted": 25316440,
+      "acceptance": 1.0,
+      "flagged": 797629,
+      "flag_rate": 0.03150636503394632,
+      "logical": 20359,
+      "logical_rate": 0.0008041809985922192,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.001,
+      "shots": 7594932,
+      "accepted": 7594932,
+      "acceptance": 1.0,
+      "flagged": 470082,
+      "flag_rate": 0.06189416837438439,
+      "logical": 23598,
+      "logical_rate": 0.0031070719263845943,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.002,
+      "shots": 2531644,
+      "accepted": 2531644,
+      "acceptance": 1.0,
+      "flagged": 302714,
+      "flag_rate": 0.11957210413470457,
+      "logical": 28723,
+      "logical_rate": 0.011345592034267061,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.0005,
+      "shots": 27848084,
+      "accepted": 27848084,
+      "acceptance": 1.0,
+      "flagged": 877050,
+      "flag_rate": 0.03149408770815256,
+      "logical": 20665,
+      "logical_rate": 0.0007420618237146943,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.001,
+      "shots": 7594932,
+      "accepted": 7594932,
+      "acceptance": 1.0,
+      "flagged": 470082,
+      "flag_rate": 0.06189416837438439,
+      "logical": 21838,
+      "logical_rate": 0.0028753384493765055,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.002,
+      "shots": 2531644,
+      "accepted": 2531644,
+      "acceptance": 1.0,
+      "flagged": 302714,
+      "flag_rate": 0.11957210413470457,
+      "logical": 27018,
+      "logical_rate": 0.010672116616712302,
+      "flag_mode": "decode"
+    }
+  ]
+}

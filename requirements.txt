@@ -1,0 +1,10 @@
+# Pin stim: a different version can change sampling, and the harness is validated
+# against the published low/ data at this one.
+stim==1.15.0
+numpy==2.4.5
+networkx==3.6.1
+tqdm==4.67.3
+matplotlib==3.10.9
+# Only for circuit drawing (circuit.gates_to_qiskit, draw_stim_circuits.ipynb).
+qiskit==2.4.1
+pylatexenc==2.10

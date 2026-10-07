@@ -1,0 +1,88 @@
+{
+  "label": "steane_optimized_v2",
+  "idle": 0.1,
+  "convention": "h2",
+  "idle_channel": "DEPOLARIZE1",
+  "ancillas": 18,
+  "cnots": 42,
+  "rows": [
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.0005,
+      "shots": 31147536,
+      "accepted": 31147536,
+      "acceptance": 1.0,
+      "flagged": 979223,
+      "flag_rate": 0.0314382171353779,
+      "logical": 20411,
+      "logical_rate": 0.0006553006311638905,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.001,
+      "shots": 8196720,
+      "accepted": 8196720,
+      "acceptance": 1.0,
+      "flagged": 507048,
+      "flag_rate": 0.061859865897578546,
+      "logical": 20825,
+      "logical_rate": 0.002540650406504065,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.002,
+      "shots": 3278688,
+      "accepted": 3278688,
+      "acceptance": 1.0,
+      "flagged": 393150,
+      "flag_rate": 0.11991076918572308,
+      "logical": 30847,
+      "logical_rate": 0.00940833650533384,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.0005,
+      "shots": 34426224,
+      "accepted": 34426224,
+      "acceptance": 1.0,
+      "flagged": 1082321,
+      "flag_rate": 0.031438853125454594,
+      "logical": 20633,
+      "logical_rate": 0.0005993396197038629,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.001,
+      "shots": 9836064,
+      "accepted": 9836064,
+      "acceptance": 1.0,
+      "flagged": 608235,
+      "flag_rate": 0.061837234893957586,
+      "logical": 22882,
+      "logical_rate": 0.0023263370388805927,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.002,
+      "shots": 3278688,
+      "accepted": 3278688,
+      "acceptance": 1.0,
+      "flagged": 393150,
+      "flag_rate": 0.11991076918572308,
+      "logical": 28826,
+      "logical_rate": 0.008791931406709025,
+      "flag_mode": "decode"
+    }
+  ]
+}

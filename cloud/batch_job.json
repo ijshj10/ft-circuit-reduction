@@ -1,0 +1,35 @@
+{
+  "taskGroups": [
+    {
+      "taskCount": 21,
+      "parallelism": 21,
+      "taskSpec": {
+        "runnables": [
+          { "script": { "text": "bash /mnt/share/task.sh" } }
+        ],
+        "environment": {
+          "variables": {
+            "CODE_TAR": "gs://BUCKET/code.tar.gz",
+            "OUT": "gs://BUCKET/run1",
+            "TARGET_ERRORS": "4000",
+            "IDLE_ARGS": ""
+          }
+        },
+        "computeResource": { "cpuMilli": 8000, "memoryMib": 8192 },
+        "maxRunDuration": "43200s",
+        "maxRetryCount": 3
+      }
+    }
+  ],
+  "allocationPolicy": {
+    "instances": [
+      {
+        "policy": {
+          "machineType": "c3-highcpu-8",
+          "provisioningModel": "SPOT"
+        }
+      }
+    ]
+  },
+  "logsPolicy": { "destination": "CLOUD_LOGGING" }
+}

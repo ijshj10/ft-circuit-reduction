@@ -1,0 +1,906 @@
+{
+  "code": "steane",
+  "style": "verified",
+  "totals": {
+    "base": [
+      30,
+      54,
+      5
+    ],
+    "opt": [
+      18,
+      42,
+      6
+    ]
+  },
+  "gadgets": [
+    {
+      "gadget": "X0",
+      "support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": {
+        "pairs": [],
+        "merges": 0,
+        "ancillas": 5,
+        "cnots": 9,
+        "depth": 5,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "best": {
+        "pairs": [
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "merges": 2,
+        "ancillas": 3,
+        "cnots": 7,
+        "depth": 6,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "variants": [
+        {
+          "pairs": [],
+          "merges": 0,
+          "ancillas": 5,
+          "cnots": 9,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              9,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        }
+      ]
+    },
+    {
+      "gadget": "X1",
+      "support": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": {
+        "pairs": [],
+        "merges": 0,
+        "ancillas": 5,
+        "cnots": 9,
+        "depth": 5,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "best": {
+        "pairs": [
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "merges": 2,
+        "ancillas": 3,
+        "cnots": 7,
+        "depth": 6,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "variants": [
+        {
+          "pairs": [],
+          "merges": 0,
+          "ancillas": 5,
+          "cnots": 9,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              9,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        }
+      ]
+    },
+    {
+      "gadget": "X2",
+      "support": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": {
+        "pairs": [],
+        "merges": 0,
+        "ancillas": 5,
+        "cnots": 9,
+        "depth": 5,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "best": {
+        "pairs": [
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "merges": 2,
+        "ancillas": 3,
+        "cnots": 7,
+        "depth": 6,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "variants": [
+        {
+          "pairs": [],
+          "merges": 0,
+          "ancillas": 5,
+          "cnots": 9,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              9,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        }
+      ]
+    },
+    {
+      "gadget": "Z3",
+      "support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "base": {
+        "pairs": [],
+        "merges": 0,
+        "ancillas": 5,
+        "cnots": 9,
+        "depth": 5,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "best": {
+        "pairs": [
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "merges": 2,
+        "ancillas": 3,
+        "cnots": 7,
+        "depth": 6,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "variants": [
+        {
+          "pairs": [],
+          "merges": 0,
+          "ancillas": 5,
+          "cnots": 9,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              9,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        }
+      ]
+    },
+    {
+      "gadget": "Z4",
+      "support": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "base": {
+        "pairs": [],
+        "merges": 0,
+        "ancillas": 5,
+        "cnots": 9,
+        "depth": 5,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "best": {
+        "pairs": [
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "merges": 2,
+        "ancillas": 3,
+        "cnots": 7,
+        "depth": 6,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "variants": [
+        {
+          "pairs": [],
+          "merges": 0,
+          "ancillas": 5,
+          "cnots": 9,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              9,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        }
+      ]
+    },
+    {
+      "gadget": "Z5",
+      "support": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "base": {
+        "pairs": [],
+        "merges": 0,
+        "ancillas": 5,
+        "cnots": 9,
+        "depth": 5,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "best": {
+        "pairs": [
+          [
+            7,
+            9
+          ],
+          [
+            7,
+            8
+          ]
+        ],
+        "merges": 2,
+        "ancillas": 3,
+        "cnots": 7,
+        "depth": 6,
+        "correct": true,
+        "ft1": true,
+        "dangerous": 0
+      },
+      "variants": [
+        {
+          "pairs": [],
+          "merges": 0,
+          "ancillas": 5,
+          "cnots": 9,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 5,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              9,
+              7
+            ]
+          ],
+          "merges": 1,
+          "ancillas": 4,
+          "cnots": 8,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              7,
+              8
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        },
+        {
+          "pairs": [
+            [
+              7,
+              9
+            ],
+            [
+              8,
+              7
+            ]
+          ],
+          "merges": 2,
+          "ancillas": 3,
+          "cnots": 7,
+          "depth": 6,
+          "correct": true,
+          "ft1": true,
+          "dangerous": 0
+        }
+      ]
+    }
+  ]
+}

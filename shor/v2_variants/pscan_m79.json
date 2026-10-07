@@ -1,0 +1,88 @@
+{
+  "label": "steane_m79",
+  "idle": 0.1,
+  "convention": "h2",
+  "idle_channel": "DEPOLARIZE1",
+  "ancillas": 24,
+  "cnots": 48,
+  "rows": [
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.0005,
+      "shots": 29113906,
+      "accepted": 29113906,
+      "acceptance": 1.0,
+      "flagged": 936784,
+      "flag_rate": 0.032176513862482076,
+      "logical": 20899,
+      "logical_rate": 0.0007178356624494151,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.001,
+      "shots": 7594932,
+      "accepted": 7594932,
+      "acceptance": 1.0,
+      "flagged": 481982,
+      "flag_rate": 0.063461002679155,
+      "logical": 20543,
+      "logical_rate": 0.0027048300103279395,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.002,
+      "shots": 2531644,
+      "accepted": 2531644,
+      "acceptance": 1.0,
+      "flagged": 310544,
+      "flag_rate": 0.12266495605227275,
+      "logical": 25601,
+      "logical_rate": 0.010112401269688787,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.0005,
+      "shots": 31645550,
+      "accepted": 31645550,
+      "acceptance": 1.0,
+      "flagged": 1018148,
+      "flag_rate": 0.03217349674756798,
+      "logical": 20788,
+      "logical_rate": 0.0006569012072787485,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.001,
+      "shots": 8860754,
+      "accepted": 8860754,
+      "acceptance": 1.0,
+      "flagged": 562417,
+      "flag_rate": 0.06347281506743106,
+      "logical": 22514,
+      "logical_rate": 0.0025408672896234338,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.002,
+      "shots": 2531644,
+      "accepted": 2531644,
+      "acceptance": 1.0,
+      "flagged": 310544,
+      "flag_rate": 0.12266495605227275,
+      "logical": 24014,
+      "logical_rate": 0.009485535881032247,
+      "flag_mode": "decode"
+    }
+  ]
+}

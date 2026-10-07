@@ -1,0 +1,6 @@
+# Pin stim: a different version can change sampling, and the harness is validated
+# against the published low/ data at this one.
+stim==1.15.0
+numpy==2.4.5
+tqdm
+networkx

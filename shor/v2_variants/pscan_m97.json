@@ -1,0 +1,88 @@
+{
+  "label": "steane_m97",
+  "idle": 0.1,
+  "convention": "h2",
+  "idle_channel": "DEPOLARIZE1",
+  "ancillas": 24,
+  "cnots": 48,
+  "rows": [
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.0005,
+      "shots": 25316440,
+      "accepted": 25316440,
+      "acceptance": 1.0,
+      "flagged": 844280,
+      "flag_rate": 0.03334908067643002,
+      "logical": 20287,
+      "logical_rate": 0.000801336996828938,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.001,
+      "shots": 7594932,
+      "accepted": 7594932,
+      "acceptance": 1.0,
+      "flagged": 497968,
+      "flag_rate": 0.0655658273174796,
+      "logical": 22896,
+      "logical_rate": 0.0030146418690779587,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "Z",
+      "cycles": 1,
+      "p": 0.002,
+      "shots": 2531644,
+      "accepted": 2531644,
+      "acceptance": 1.0,
+      "flagged": 320813,
+      "flag_rate": 0.1267212135671524,
+      "logical": 28326,
+      "logical_rate": 0.0111887769370417,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.0005,
+      "shots": 27848084,
+      "accepted": 27848084,
+      "acceptance": 1.0,
+      "flagged": 928781,
+      "flag_rate": 0.033351702041691626,
+      "logical": 20193,
+      "logical_rate": 0.0007251127222971605,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.001,
+      "shots": 7594932,
+      "accepted": 7594932,
+      "acceptance": 1.0,
+      "flagged": 497968,
+      "flag_rate": 0.0655658273174796,
+      "logical": 21518,
+      "logical_rate": 0.002833205089920489,
+      "flag_mode": "decode"
+    },
+    {
+      "basis": "X",
+      "cycles": 1,
+      "p": 0.002,
+      "shots": 2531644,
+      "accepted": 2531644,
+      "acceptance": 1.0,
+      "flagged": 320813,
+      "flag_rate": 0.1267212135671524,
+      "logical": 26135,
+      "logical_rate": 0.010323331400465468,
+      "flag_mode": "decode"
+    }
+  ]
+}

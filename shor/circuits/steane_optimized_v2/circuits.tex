@@ -1,0 +1,21 @@
+% X0: X on [0, 1, 2, 3], merges [[7, 9], [7, 8]]
+\begin{quantikz}
+\lstick{$d_{0}$} & & & & & \targ{} & & & & & \\
+\lstick{$d_{1}$} & & & & & & & & \targ{} & & \\
+\lstick{$d_{2}$} & & & \targ{} & & & & & & & \\
+\lstick{$d_{3}$} & & & & & & & \targ{} & & & \\
+\lstick{\ket{0}} & & \gate{H} & \ctrl{-2} & \ctrl{2} & \ctrl{-4} & \ctrl{1} & \ctrl{2} & \ctrl{-3} & \gate{H} & \meter{} \\
+\lstick{\ket{0}} & & & & & & \targ{} & \ctrl{-2} & \gate{H} & & \meter{} \\
+\lstick{\ket{0}} & & & & \targ{} & & & \targ{} & & & \meter{} \\
+\end{quantikz}
+
+% Z3: Z on [0, 1, 2, 3], merges [[7, 9], [7, 8]]
+\begin{quantikz}
+\lstick{$d_{0}$} & \gate{H} & & & & \targ{} & \gate{H} & & & & \\
+\lstick{$d_{1}$} & \gate{H} & & & & & & & \targ{} & \gate{H} & \\
+\lstick{$d_{2}$} & \gate{H} & & \targ{} & \gate{H} & & & & & & \\
+\lstick{$d_{3}$} & \gate{H} & & & & & & \targ{} & \gate{H} & & \\
+\lstick{\ket{0}} & & \gate{H} & \ctrl{-2} & \ctrl{2} & \ctrl{-4} & \ctrl{1} & \ctrl{2} & \ctrl{-3} & \gate{H} & \meter{} \\
+\lstick{\ket{0}} & & & & & & \targ{} & \ctrl{-2} & \gate{H} & & \meter{} \\
+\lstick{\ket{0}} & & & & \targ{} & & & \targ{} & & & \meter{} \\
+\end{quantikz}

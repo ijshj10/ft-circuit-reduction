@@ -1,0 +1,285 @@
+{
+  "num_tied": 27,
+  "finalists": [
+    {
+      "circuit": 29,
+      "reduction_path": [
+        [
+          7,
+          8
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          12,
+          11
+        ],
+        [
+          13,
+          10
+        ]
+      ],
+      "num_ancillas": 4,
+      "race_errors": 677,
+      "race_shots": 131000,
+      "race_rate": 0.00516793893129771
+    },
+    {
+      "circuit": 110,
+      "reduction_path": [
+        [
+          8,
+          7
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          8,
+          14
+        ]
+      ],
+      "num_ancillas": 4,
+      "race_errors": 699,
+      "race_shots": 131000,
+      "race_rate": 0.00533587786259542
+    },
+    {
+      "circuit": 120,
+      "reduction_path": [
+        [
+          8,
+          7
+        ],
+        [
+          13,
+          12
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          11,
+          9
+        ]
+      ],
+      "num_ancillas": 4,
+      "race_errors": 699,
+      "race_shots": 131000,
+      "race_rate": 0.00533587786259542
+    }
+  ],
+  "final_measurements": [
+    {
+      "circuit": 29,
+      "cycles": 1,
+      "base": "X",
+      "shots": 1000000,
+      "errors": 378,
+      "logical_error_rate": 0.000378,
+      "ci95": [
+        0.00034177154648392196,
+        0.00041806713451980105
+      ]
+    },
+    {
+      "circuit": 29,
+      "cycles": 1,
+      "base": "Z",
+      "shots": 1000000,
+      "errors": 227,
+      "logical_error_rate": 0.000227,
+      "ci95": [
+        0.00019933059831856524,
+        0.00025850924284390094
+      ]
+    },
+    {
+      "circuit": 29,
+      "cycles": 10,
+      "base": "X",
+      "shots": 1000000,
+      "errors": 5674,
+      "logical_error_rate": 0.005674,
+      "ci95": [
+        0.005528667600063576,
+        0.005823130390869262
+      ]
+    },
+    {
+      "circuit": 29,
+      "cycles": 10,
+      "base": "Z",
+      "shots": 1000000,
+      "errors": 2346,
+      "logical_error_rate": 0.002346,
+      "ci95": [
+        0.002253070487104906,
+        0.0024427530734193034
+      ]
+    },
+    {
+      "circuit": 110,
+      "cycles": 1,
+      "base": "X",
+      "shots": 1000000,
+      "errors": 370,
+      "logical_error_rate": 0.00037,
+      "ci95": [
+        0.0003341762312947105,
+        0.0004096625111743763
+      ]
+    },
+    {
+      "circuit": 110,
+      "cycles": 1,
+      "base": "Z",
+      "shots": 1000000,
+      "errors": 216,
+      "logical_error_rate": 0.000216,
+      "ci95": [
+        0.00018905320970277574,
+        0.0002467867159745657
+      ]
+    },
+    {
+      "circuit": 110,
+      "cycles": 10,
+      "base": "X",
+      "shots": 1000000,
+      "errors": 5516,
+      "logical_error_rate": 0.005516,
+      "ci95": [
+        0.005372720720952069,
+        0.005663078483921704
+      ]
+    },
+    {
+      "circuit": 110,
+      "cycles": 10,
+      "base": "Z",
+      "shots": 1000000,
+      "errors": 2354,
+      "logical_error_rate": 0.002354,
+      "ci95": [
+        0.0022609093337256415,
+        0.0024509141653332044
+      ]
+    },
+    {
+      "circuit": 120,
+      "cycles": 1,
+      "base": "X",
+      "shots": 1000000,
+      "errors": 440,
+      "logical_error_rate": 0.00044,
+      "ci95": [
+        0.0004007701445071436,
+        0.0004830680601400093
+      ]
+    },
+    {
+      "circuit": 120,
+      "cycles": 1,
+      "base": "Z",
+      "shots": 1000000,
+      "errors": 218,
+      "logical_error_rate": 0.000218,
+      "ci95": [
+        0.00019092048545182638,
+        0.00024891942485917416
+      ]
+    },
+    {
+      "circuit": 120,
+      "cycles": 10,
+      "base": "X",
+      "shots": 1000000,
+      "errors": 5492,
+      "logical_error_rate": 0.005492,
+      "ci95": [
+        0.005349035189493933,
+        0.005638764199775933
+      ]
+    },
+    {
+      "circuit": 120,
+      "cycles": 10,
+      "base": "Z",
+      "shots": 1000000,
+      "errors": 2549,
+      "logical_error_rate": 0.002549,
+      "ci95": [
+        0.002452063176038103,
+        0.0026497588248024988
+      ]
+    }
+  ],
+  "history": [
+    {
+      "round": 0,
+      "shots_per_circuit": 1000,
+      "z": 3.8305113431577924,
+      "alive_before": 391,
+      "alive_after": 389,
+      "best": 92,
+      "best_rate": 0.001
+    },
+    {
+      "round": 1,
+      "shots_per_circuit": 5000,
+      "z": 3.8292493838397483,
+      "alive_before": 389,
+      "alive_after": 250,
+      "best": 120,
+      "best_rate": 0.0045
+    },
+    {
+      "round": 2,
+      "shots_per_circuit": 25000,
+      "z": 3.7190164854557084,
+      "alive_before": 250,
+      "alive_after": 68,
+      "best": 29,
+      "best_rate": 0.004419354838709678
+    },
+    {
+      "round": 3,
+      "shots_per_circuit": 100000,
+      "z": 3.3760692415397497,
+      "alive_before": 68,
+      "alive_after": 27,
+      "best": 29,
+      "best_rate": 0.00516793893129771
+    }
+  ],
+  "config": {
+    "schedule": [
+      1000,
+      5000,
+      25000,
+      100000
+    ],
+    "race_cycles": 10,
+    "race_base": "X",
+    "final_shots": 1000000,
+    "cycles": [
+      1,
+      10
+    ],
+    "bases": [
+      "Z",
+      "X"
+    ],
+    "alpha": 0.05,
+    "seed": 0
+  }
+}
